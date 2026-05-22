@@ -1,0 +1,122 @@
+export const USERS = {
+  "Archi-Tech": {
+    name: "Archi-Tech",
+    avatar: "https://i.pravatar.cc/150?u=a",
+    location: "Berlin, Germany",
+    bio: "Exploring the boundary between structural design and virtual reality.",
+    latestWorks: [
+      "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
+      "https://images.unsplash.com/photo-1524230572899-a752b38b584c",
+      "https://images.unsplash.com/photo-1481026469463-66327c86e544",
+    ],
+  },
+  "Pixel_Queen": {
+    name: "Pixel_Queen",
+    avatar: "https://i.pravatar.cc/150?u=p",
+    location: "Tokyo, Japan",
+    bio: "UI/UX obsessed. Bringing colors to life through functional interfaces.",
+    latestWorks: [
+      "https://images.unsplash.com/photo-1558655146-d09347e92766",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8",
+    ],
+  },
+  "Neon-Dreamer": {
+    name: "Neon-Dreamer",
+    avatar: "https://i.pravatar.cc/150?u=n",
+    location: "Neo Seoul",
+    bio: "Motion graphics & 3D illustrations out of this world.",
+    latestWorks: [
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+      "https://images.unsplash.com/photo-1611162617474-5b21e879e113",
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    ],
+  },
+};
+
+export const INITIAL_PROJECTS = [
+  {
+    id: 1,
+    title: "Brutalist Structure 01",
+    author: USERS["Archi-Tech"],
+    image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=600&auto=format&fit=crop",
+    likes: 124,
+    tags: ["#3D", "#Architecture"],
+    height: 300,
+  },
+  {
+    id: 2,
+    title: "Synthwave Dashboard",
+    author: USERS["Pixel_Queen"],
+    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop",
+    likes: 432,
+    tags: ["#UI", "#Web"],
+    height: 450,
+  },
+  {
+    id: 3,
+    title: "Cyberpunk Alley Loop",
+    author: USERS["Neon-Dreamer"],
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&auto=format&fit=crop",
+    likes: 89,
+    tags: ["#Motion", "#3D"],
+    height: 380,
+  },
+  {
+    id: 4,
+    title: "Minimalist Habitat",
+    author: USERS["Archi-Tech"],
+    image: "https://images.unsplash.com/photo-1524230572899-a752b38b584c?q=80&w=600&auto=format&fit=crop",
+    likes: 210,
+    tags: ["#Architecture", "#3D"],
+    height: 400,
+  },
+  {
+    id: 5,
+    title: "E-Commerce Mobile App",
+    author: USERS["Pixel_Queen"],
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop",
+    likes: 340,
+    tags: ["#UI", "#Mobile"],
+    height: 320,
+  },
+  {
+    id: 6,
+    title: "Neon City Render",
+    author: USERS["Neon-Dreamer"],
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop",
+    likes: 560,
+    tags: ["#3D", "#Motion"],
+    height: 480,
+  },
+];
+
+export const MORE_PROJECTS = [
+  {
+    id: 7,
+    title: "Glassmorphism UI Kit",
+    author: USERS["Pixel_Queen"],
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=600&auto=format&fit=crop",
+    likes: 912,
+    tags: ["#UI", "#Web"],
+    height: 350,
+  },
+  {
+    id: 8,
+    title: "Concrete Pavilion",
+    author: USERS["Archi-Tech"],
+    image: "https://images.unsplash.com/photo-1481026469463-66327c86e544?q=80&w=600&auto=format&fit=crop",
+    likes: 120,
+    tags: ["#Architecture", "#3D"],
+    height: 420,
+  },
+  {
+    id: 9,
+    title: "Holographic Shapes",
+    author: USERS["Neon-Dreamer"],
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop",
+    likes: 777,
+    tags: ["#Motion", "#3D"],
+    height: 310,
+  },
+];
